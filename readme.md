@@ -13,8 +13,8 @@ What this project API can do? Then import this postman collection [https://www.g
 
 ## Usage
 
-In this project, the server is listening in localhost:3000.  
-You can access the graphql in http://localhost:3000/graphql.  
+In this project, the server is listening in localhost:3003.  
+You can access the graphql in http://localhost:3003/graphql.  
 Of course you can change the default listening server.
 
 ## Contributing
