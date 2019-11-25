@@ -1,0 +1,9 @@
+{
+    "env":{
+        "MONGO_USER": "dbuser",
+        "MONGO_PASSWORD": "dbpassword",
+        "MONGO_DB": "dbname",
+        "MONGO_HOST" : "host:27017",
+        "PORT" : 3003
+    }
+}
