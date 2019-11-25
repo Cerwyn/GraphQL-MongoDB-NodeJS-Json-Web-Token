@@ -8,7 +8,18 @@ What this project API can do? Then import this postman collection [https://www.g
 
 ## Installation
 1. `npm install` to install the dependencies
-2.  Change the nodemon.json with your MongoDB credentials
+2.  Change/create the nodemon.json in root folder with these MongoDB configurations:
+```bash
+{
+    "env":{
+        "MONGO_USER": "userdb",
+        "MONGO_PASSWORD": "passworddb",
+        "MONGO_DB": "dbname",
+        "MONGO_HOST" : "host:27017",
+        "PORT" : 3003
+    }
+}
+```
 3. Start the server with `npm start`
 
 ## Usage
