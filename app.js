@@ -24,7 +24,7 @@ app.use(
 
   mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-apjnh.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
+    `mongodb://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_HOST}/${process.env.MONGO_DB}?authSource=admin`
   )
   .then(() => {
     app.listen(3003);
