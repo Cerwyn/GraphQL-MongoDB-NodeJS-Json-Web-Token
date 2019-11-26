@@ -1,4 +1,5 @@
 const express = require('express');
+var cors = require('cors');
 const bodyParser = require('body-parser');
 const graphqlHttp = require('express-graphql');
 const mongoose = require('mongoose');
@@ -8,6 +9,8 @@ const graphQlResolvers = require('./graphql/resolvers/index');
 const Auth = require('./middleware/auth');
 
 const app = express();
+
+app.use(cors());
 
 const PORT = process.env.PORT;
 
