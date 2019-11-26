@@ -7541,9 +7541,9 @@ A_:function A_(){},
 A0:function A0(){},
 j5:function j5(a){this.a=a},
 vm:function vm(a,b,c){var _=this
-_.r=a
-_.y=_.x=null
-_.z=b
+_.d=a
+_.f=_.e=null
+_.r=b
 _.a=null
 _.b=c
 _.c=null},
@@ -11185,7 +11185,7 @@ wa:function wa(a,b){var _=this
 _.e=_.d=null
 _.f=!1
 _.r=""
-_.y=a
+_.x=a
 _.a=null
 _.b=b
 _.c=null},
@@ -45245,13 +45245,13 @@ Z.vm.prototype={
 b_:function(){var u,t=this
 $.Xc=D.kl()
 $.Xb=D.kl()
-u=t.r.a
-t.x=u.i(0,"token")
-t.y=u.i(0,"userid")
+u=t.d.a
+t.e=u.i(0,"token")
+t.f=u.i(0,"userid")
 t.kc()},
 kc:function(){var u=0,t=P.a1(null),s=this,r,q,p
 var $async$kc=P.Y(function(a,b){if(a===1)return P.Z(b,t)
-while(true)switch(u){case 0:r=Q.Ze(s.x)
+while(true)switch(u){case 0:r=Q.Ze(s.e)
 q=Q.J5("      query{\n          book{\n              title\n              description\n              _id\n          }\n      }\n    ")
 u=2
 return P.a2(r.c.jK("0",q),$async$kc)
@@ -45259,13 +45259,13 @@ case 2:p=b
 if(p.gon())P.e7(J.bR(p.d[0].b))
 else{s.aE(new Z.PZ(s,p))
 q=J.ay(p.c,"book")
-s.z=q
+s.r=q
 P.e7(J.aS(q))
-P.e7(J.ay(J.ay(s.z,0),"title"))}return P.a_(null,t)}})
+P.e7(J.ay(J.ay(s.r,0),"title"))}return P.a_(null,t)}})
 return P.a0($async$kc,t)},
 nH:function(){var u=0,t=P.a1(null),s=this,r,q,p,o
 var $async$nH=P.Y(function(a,b){if(a===1)return P.Z(b,t)
-while(true)switch(u){case 0:q=Q.Ze(s.x)
+while(true)switch(u){case 0:q=Q.Ze(s.e)
 p=$.Xc.a
 o=$.Xb.a
 o=Q.J5('     mutation{\n        addBook(inputBook:{\n            title: "'+H.c(p.a)+'"\n            description: "'+H.c(o.a)+'"\n            \n        }){\n            title\n            description\n        }\n    }\n    ')
@@ -45276,13 +45276,12 @@ if(r.gon())P.e7(J.bR(r.d[0].b))
 else s.kc()
 return P.a_(null,t)}})
 return P.a0($async$nH,t)},
-O:function(a){var u,t=this,s=null,r=4281964942,q=E.VX(s,new P.u(r),0,L.bt("Demo Flutter - GraphQL",s,s,s,s,s)),p=[N.a7],o=M.bl(s,M.bl(s,T.lm(H.d([M.bl(s,L.bt(C.d.K("User ID: ",t.y),s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,s,s,s,s,s,s),M.bl(s,L.bt(C.d.K("Token: ",t.x),s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,s,s,s,s,s,s)],p),C.cd,C.bF,C.aN),s,s,s,s,s,new V.T(16,16,16,16),s),new P.u(r),s,s,s,s,s,s),n=J.aS(t.z)
+O:function(a){var u,t=this,s=null,r=4281964942,q=E.VX(s,new P.u(r),0,L.bt("Demo Flutter - GraphQL",s,s,s,s,s)),p=[N.a7],o=M.bl(s,M.bl(s,T.lm(H.d([M.bl(s,L.bt(C.d.K("User ID: ",t.f),s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,s,s,s,s,s,s),M.bl(s,L.bt(C.d.K("Token: ",t.e),s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,s,s,s,s,s,s)],p),C.cd,C.bF,C.aN),s,s,s,s,s,new V.T(16,16,16,16),s),new P.u(r),s,s,s,s,s,s),n=J.aS(t.r)
 o=H.d([o,new T.bM(new V.T(8,8,8,8),s,s),new B.rr(new G.LZ(new Z.PU(t,a),n,!0,!0,!0),s,C.m,!1,s,!0,new L.n6(s),!0,s,n,C.Y,s)],p)
 n=P.an([null,0],D.hY,P.k)
 u=o.length
 o=M.bl(s,new T.hF(C.ap,s,s,new B.rr(new G.M0(!0,!0,!0,o,n),s,C.m,!1,s,!0,C.nh,!1,s,u,C.Y,s),s),s,s,s,s,s,new V.T(0,0,0,0),s)
-n=L.bt("Add Book",s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s),s)
-n=H.d([C.vs,C.qq,C.vu,n,C.vt],p)
+n=H.d([C.vs,C.qq,C.vu,L.bt("Add Book",s,s,s,A.aW(s,s,C.l,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s),s),C.vt],p)
 n=T.mZ(n,C.bb,C.bF,C.lB)
 return M.WT(q,o,new B.pO(T.mZ(H.d([B.Er(s,L.Zi(C.qm,new P.u(r)),t.gTg(),s),N.Z6(L.bt("Logout",s,s,s,A.aW(s,s,C.j4,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),new Z.PV(t,a))],p),C.bb,C.lA,C.aN),s),new E.hP(new E.PD(n,s),new P.u(r),t.gQ_(),4,!0,C.nR,s),C.oo)},
 o2:function(){var u=0,t=P.a1(null),s=this,r,q,p,o,n
@@ -45299,16 +45298,16 @@ case 2:return P.a_(null,t)}})
 return P.a0($async$o2,t)},
 $aa4:function(){return[Z.j5]}}
 Z.PZ.prototype={
-$0:function(){return this.a.z=J.ay(this.b.c,"book")},
+$0:function(){return this.a.r=J.ay(this.b.c,"book")},
 $S:75}
 Z.PU.prototype={
 $2:function(a,b){var u=null,t=F.bw(this.b,!1).a,s=this.a
-return new V.lh(2,M.bl(u,T.lm(H.d([L.bt(C.d.K("ID: ",J.ay(J.ay(s.z,b),"_id")),u,u,u,u,u),L.bt(C.d.K("Title: ",J.ay(J.ay(s.z,b),"title")),u,u,u,u,u),L.bt(C.d.K("Description: ",J.ay(J.ay(s.z,b),"description")),u,u,u,u,u)],[N.a7]),C.cd,C.bF,C.aN),u,u,u,u,new V.T(2,2,2,2),new V.T(16,16,16,16),t.a),u)},
+return new V.lh(2,M.bl(u,T.lm(H.d([L.bt(C.d.K("ID: ",J.ay(J.ay(s.r,b),"_id")),u,u,u,u,u),L.bt(C.d.K("Title: ",J.ay(J.ay(s.r,b),"title")),u,u,u,u,u),L.bt(C.d.K("Description: ",J.ay(J.ay(s.r,b),"description")),u,u,u,u,u)],[N.a7]),C.cd,C.bF,C.aN),u,u,u,u,new V.T(2,2,2,2),new V.T(16,16,16,16),t.a),u)},
 $C:"$2",
 $R:2,
 $S:297}
 Z.PV.prototype={
-$0:function(){var u=this.a.r
+$0:function(){var u=this.a.d
 u.mu(0,"token",null)
 u.mu(0,"userid",null)
 K.rQ(this.b,"/SignUp",new Z.PT(),P.q)},
@@ -45356,7 +45355,7 @@ return P.a2(q.c.jK("0",o),$async$oB)
 case 2:r=b
 if(r.gon()){P.e7(r.d[0].b)
 s.aE(new D.RL(s,r))}else{P.e7(J.ay(J.ay(r.c,"login"),"token"))
-p=s.y
+p=s.x
 p.mu(0,"token",J.ay(J.ay(r.c,"login"),"token"))
 p.mu(0,"userid",J.ay(J.ay(r.c,"login"),"userId"))
 K.rQ(s.c,"/Dashboard",new D.RM(),P.q)}return P.a_(null,t)}})
@@ -45412,7 +45411,7 @@ D.RG.prototype={
 $1:function(a){return!1},
 $S:19}
 F.GM.prototype={
-O:function(a){return new S.rw(new D.i_(null),P.an(["/Login",new F.GN(),"/SignUp",new F.GO(),"/Dashboard",new F.GP()],P.f,{func:1,ret:N.a7,args:[N.a9]}),"Redux Demo",null)}}
+O:function(a){return new S.rw(new D.i_(null),P.an(["/Login",new F.GN(),"/SignUp",new F.GO(),"/Dashboard",new F.GP()],P.f,{func:1,ret:N.a7,args:[N.a9]}),"Demo Flutter - GraphQL",null)}}
 F.GN.prototype={
 $1:function(a){return new D.i_(null)},
 $S:299}
