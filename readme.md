@@ -26,7 +26,8 @@ What this project API can do? Then import this postman collection [https://www.g
 
 In this project, the server is listening in localhost:3003.  
 You can access the graphql in http://localhost:3003/graphql.  
-Of course you can change the default listening server.
+For this project, I created a dummy server at https://ver-dnu.studio7.id/graphql and Flutter Web APP at https://ver-dnu.studio7.id/web
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
